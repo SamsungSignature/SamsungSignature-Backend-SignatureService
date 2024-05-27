@@ -1,15 +1,53 @@
-<div style="display: flex; align-items: center;"> 
-<div style="margin-top: 30px"><img src="https://github.com/seomiii/seomiii/assets/86819719/83d0be33-32aa-4d61-ada2-52eb12a213a9" width=80px></div> 
-<div><h1 style="margin-left: 15px; line-height: 40px">Samsung SIGNATURE</h1></div>
+<div align="center">
+    <img src="https://github.com/skagmltn7/skagmltn7/assets/133394749/98add836-3d3d-4691-a997-1a135bd464a9" alt="logo" width="350" height="400"/>
 </div>
+
+<div align="center">
+
+#### 삼성페이를 활용한 대리결제 모바일 결제 서비스
+
+</div><div align="center">
+
+![NGINX](https://img.shields.io/badge/NGINX-1.25.5-green)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-brightgreen)
+![Ubuntu](https://img.shields.io/badge/JAVA-Eclipse%20Temurin%20JDK%2017-007396)
+![Node.js](https://img.shields.io/badge/Node.js-20.10.0%20-brightgreen)
+![Npm](https://img.shields.io/badge/Npm-10.3.0-yellow)
+![JVM](https://img.shields.io/badge/JVM-Docker%20image%20openjdk:17--slim-blue)
+
+</div>
+
+<div align="center">
+
+[개요](#-개요) •
+[비디오](#-비디오) •
+[주요 기능](#-주요-기능) •
+[서비스 아키텍쳐](#-서비스-아키텍쳐) •
+[명세서](#-명세서) •
+[사용 기술 설명](#-사용-기술-설명) •
+[개발 환경](#-개발-환경) •
+[협업 문화](#-협업-문화) •
+[팀원소개](#-팀원-소개) •
+[노션](https://www.notion.so/A503-92df6177eeef46db98aa7cb8b9ec4861)
+
+</div>
+
+<div align="center">
+
+📢 본 프로젝트는 2024 Samsung Software Academy For Youth 10기 자율 프로젝트 일환으로 진행되었습니다.
+
+</div>
+
 
 ## 💳 개요
 
 혹시 '내가 살게'라고 해놓고 결제 했을 때 돈이 부족했던 적이 있나요? <br>
 주위 사람들 모르게 SamSung SIGNATURE를 사용해 다른 사람에게 카드를 빌려 사용해보세요!<br><br>
-' SamSung SIGNATURE' 은 삼성페이를 활용한 대리결제 서비스로, <br>
+`SamSung SIGNATURE` 은 삼성페이를 활용한 대리결제 서비스로, <br>
 실물 카드가 없어도 결제 승인 버튼 하나만으로 간편하고, 안전하게 다른 사람이 결제할 수 있는 권한을 부여할 수 있습니다.<br>
 아이들의 심부름, 법인 카드 발급과 같은 상황에서 손쉽고, 안전하게 대리 결제를 진행해보세요!
+
+## 💳 비디오
 
 ## 💳 주요 기능
 
@@ -19,7 +57,7 @@
       <col widht="60%"/>
    </colgroup>
 	<tr>
-		<td width="200" height="300"><img src="" width="200" height="400"/></td>
+		<td width="200" height="300"><img src="https://github.com/skagmltn7/skagmltn7/assets/133394749/5bebfa43-9bb3-4275-be5c-9c3594fe0e08" width="200" height="400"/></td>
 		<td><br><h4>시그니처 카드 등록</h4><br>대리 결제 시 사용할 시그니처 카드를 삼성 월렛에 등록할 수 있습니다.
 </td>
 	</tr>
@@ -52,7 +90,7 @@
 </ul></td>
 	</tr>
    <tr>
-		<td width="200" height="300"><img src="" width="200" height="400"/></td>
+		<td width="200" height="300"><img src="https://github.com/skagmltn7/skagmltn7/assets/133394749/200796eb-9d13-4964-ba8c-993258fd3a38" width="200" height="400"/></td>
 		<td><br><br><h4>대리 결제</h4><br>빌린 카드를 선택한 후 삼성 페이에 있는 시그니처 카드로 결제를 진행할 수 있습니다.<br><br>
 <ul><li>대리 결제 요청 조건( 제한 금액, 결제 상품 종류 , 기한 등 )에 부합하지 않으면 결제가 불가합니다.</li>
 </ul></td>
@@ -122,18 +160,18 @@
 **MSW를 활용하여 API mocking**
 
 - 목 서비스를 활용하여 백엔드와 api 통신을 하기 전 가상의 데이터로 api 통신을 완료한 후 실제 서버에 적용하는 방식을 사용했습니다.<br><br>
-![MSW를 이용한 API 모킹](https://github.com/seomiii/seomiii/assets/86819719/254f6661-644f-4dde-9041-bc8b8db8bfa6)
+  ![MSW를 이용한 API 모킹](https://github.com/seomiii/seomiii/assets/86819719/254f6661-644f-4dde-9041-bc8b8db8bfa6)
 
 <hr>
 
 **Redux toolkit과 Tanstack Query를 이용한 데이터 상태 관리**
 
 - Redux toolkit을 이용해서 전역 데이터를 관리하였습니다.<br><br>
-![Redux를 이용한 상태관리](https://github.com/seomiii/seomiii/assets/86819719/01c8ab57-ba20-4935-a6d0-0f9d328568c7)
+  ![Redux를 이용한 상태관리](https://github.com/seomiii/seomiii/assets/86819719/01c8ab57-ba20-4935-a6d0-0f9d328568c7)
 <p>
 
 - Tanstack Query를 이용해서 API 통신 데이터의 캐싱과 통신 상태 관리를 하였습니다. <br><br>
-![Tanstack Query를 이용한 상태관리](https://github.com/seomiii/seomiii/assets/86819719/b2b38df9-fedb-4ffd-92f6-a42884525ec6)
+  ![Tanstack Query를 이용한 상태관리](https://github.com/seomiii/seomiii/assets/86819719/b2b38df9-fedb-4ffd-92f6-a42884525ec6)
 
 ## 💳 개발 환경
 

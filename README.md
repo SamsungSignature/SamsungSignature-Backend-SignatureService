@@ -10,7 +10,6 @@
 
 ![NGINX](https://img.shields.io/badge/NGINX-1.25.5-green)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-brightgreen)
-![Ubuntu](https://img.shields.io/badge/JAVA-Eclipse%20Temurin%20JDK%2017-007396)
 ![Node.js](https://img.shields.io/badge/Node.js-20.10.0%20-brightgreen)
 ![Npm](https://img.shields.io/badge/Npm-10.3.0-yellow)
 ![JVM](https://img.shields.io/badge/JVM-Docker%20image%20openjdk:17--slim-blue)

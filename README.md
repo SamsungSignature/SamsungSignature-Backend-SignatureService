@@ -47,7 +47,15 @@
 실물 카드가 없어도 결제 승인 버튼 하나만으로 간편하고, 안전하게 다른 사람이 결제할 수 있는 권한을 부여할 수 있습니다.<br>
 아이들의 심부름, 법인 카드 발급과 같은 상황에서 손쉽고, 안전하게 대리 결제를 진행해보세요!
 
+### 개발기간
+
+2024.04.08 ~ 2024.05.24 (7주)
+
 ## 💳 비디오
+
+<a href="https://youtu.be/rvregh5ICLU">
+<img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Drvregh5ICLU" width="560" height="315" />
+</a>
 
 ## 💳 주요 기능
 
